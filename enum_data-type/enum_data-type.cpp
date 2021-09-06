@@ -15,13 +15,12 @@ int main()
 
 	//an example of how to use enum
 	colors color = GREEN;
-    if (color == RED)
-        cout << "open red door";
-    else if (color == GREEN)
+    	if (color == RED)
+        	cout << "open red door";
+    	else if (color == GREEN)
 		cout << "open green door";
 	else if (color == BLUE)
 		cout << "open blue door";
-	//success
 	else cout<<"close door";
 	system("pause");
 }
