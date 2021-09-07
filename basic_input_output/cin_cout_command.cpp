@@ -6,10 +6,10 @@
 using namespace std; 
 int main() 
 { 
-	char ten[50]; 
-    cout << "Input your name: "; 
-    cin >> ten; 
-    cout << "Your name is: " << ten << endl;
+	char ten[50];
+	cout << "Input your name: ";
+	cin >> ten;
+	cout << "Your name is: " << ten << endl;
 
 	int a, b;
 	cout<<"Input value of a:";
@@ -20,5 +20,5 @@ int main()
 	cout<<"Value of b = "<< b <<endl;
 	/* You can input a and b with one line
 	cin>>a>>b; */
-    system("pause");
+	system("pause");
 }
