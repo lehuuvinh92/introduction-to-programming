@@ -12,6 +12,7 @@ int main() {
 	for(int i= 0; i< MAX; i++){
 		cout<<arA[i]<<" ";
 	}
+	//call changeArray(int a[]) function
 	changeArray(arA);
 	cout<<"\nOutput arA array after change:"<<endl;
 	for(int i= 0; i< MAX; i++){
