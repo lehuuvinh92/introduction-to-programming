@@ -19,7 +19,7 @@ void inputArray(int a[][MAXC], int &m, int &n){
 	}
 }
 
-void outputArray(int a[][MAXC], int &m, int &n){
+void outputArray(int a[][MAXC], int m, int n){
 	cout<<"output two dimensional array "<<m<<"x"<<n<<":"<<endl;
 	for(int i=0;i<m;i++){
 		for(int j=0;j<n;j++){
