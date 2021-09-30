@@ -1,0 +1,3 @@
+Welcome to introduction to programming!
+Programming language C++
+Hello all!
